@@ -1,0 +1,28 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Mahindi",
+      "price": 2500,
+      "quantity": 100,
+      "category": "Nafaka",
+      "image": "https://via.placeholder.com/150/FFD700/000000?text=Mahindi"
+    },
+    {
+      "id": 2,
+      "name": "Nyanya",
+      "price": 1500,
+      "quantity": 50,
+      "category": "Mboga",
+      "image": "https://via.placeholder.com/150/FF6347/FFFFFF?text=Nyanya"
+    },
+    {
+      "id": 3,
+      "name": "Viazi",
+      "price": 3000,
+      "quantity": 75,
+      "category": "Mboga",
+      "image": "https://via.placeholder.com/150/8B4513/FFFFFF?text=Viazi"
+    }
+  ]
+}
