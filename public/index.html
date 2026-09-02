@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="sw">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazao App - Kuuza Mazao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🌾 Mazao App</h1>
+            <p>Pata na uuze mazao yako kwa urahisi</p>
+        </header>
+
+        <!-- Form ya kuongeza mazao -->
+        <div class="card">
+            <h2>➕ Ongeza Mazao</h2>
+            <form id="productForm">
+                <input type="text" id="name" placeholder="Jina la zao" required>
+                <input type="number" id="price" placeholder="Bei (TSh)" required>
+                <input type="number" id="quantity" placeholder="Kiasi" required>
+                <input type="text" id="category" placeholder="Aina (Mboga/Nafaka/Matunda)" required>
+                <input type="text" id="image" placeholder="URL ya picha (hiari)">
+                <button type="submit">Ongeza Mazao</button>
+            </form>
+        </div>
+
+        <!-- Orodha ya mazao -->
+        <div class="card">
+            <h2>📦 Mazao Yote</h2>
+            <div id="productList" class="product-grid"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
